@@ -11,7 +11,7 @@ At a given time $t$, we will use the present value of the six other variables an
 
 Rather than predicting the raw temperature at time $t+1$, we predict the ``return'', which is an aggregation of discounted future oil temperatures:
 
-$$ G_t = \sum_{k=t+1}^{\infty} \gamma^{k-t-1} R_k $$.
+$$G_t = \sum_{k=t+1}^{\infty} \gamma^{k-t-1} R_k$$.
 
 In the standard RL setting, $R_k$ refers to reward. Here, we will treat this as the oil temperature at time $k$.
 Essentially, we are now in the realm of Generalized Value Functions (GVF), and our goal is to estimate this value function.
