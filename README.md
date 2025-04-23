@@ -9,7 +9,7 @@ This example is built on the electricity transformer dataset (https://github.com
 The dataset contains seven time-series signals, and our prediction target will be one of them -- the oil temperature.
 At a given time $t$, we will use the present value of the six other variables and the previous ($t-1$) value of the oil temperature to predict future oil temperatures.
 
-Rather than predicting the raw temperature at time $t+1$, we predict the ``return'', which is an aggregation of discounted future oil temperatures:
+Rather than predicting the raw temperature at time $t+1$, we predict the ``return'', which is an accumulation of discounted future oil temperatures:
 
 $$G_t = \sum_{k=t+1}^{\infty} \gamma^{k-t-1} R_k$$.
 
