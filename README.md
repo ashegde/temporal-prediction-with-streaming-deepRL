@@ -15,7 +15,7 @@ $$G_t = \sum_{k=t+1}^{\infty} \gamma^{k-t-1} R_k$$.
 
 In the standard RL setting, $R_k$ refers to reward. Here, we will treat this as the oil temperature at time $k$.
 Essentially, we are now in the realm of Generalized Value Functions (GVF), and our goal is to estimate this value function.
-This task falls into the category of online learning -- the incoming data is acts as a stream, and we update our value/prediction function in real-time.
+This task falls into the category of online learning -- the incoming data acts as a stream, and we update our value/prediction function in real-time.
 
 To do so, we will train a neural network following the TD learning scheme with the modifications suggested in our primary reference.
 
