@@ -30,10 +30,14 @@ The second, below, illustrates the predicted ``return'' of our learned GVF at ea
 
 It is evident that the learned model adapts and improves over time.
 
-There is naturally quite a bit of literature in this space. There are plenty of other resources that provide a more comprehensive listing, but here are a few papers that I recently read and learned from:
+There is a lot of great literature in this space and there are plenty of resources that provide a comprehensive listing. Here are a handful of papers that I recently learned from or found interesting:
+
+```Gallici, M., Fellows, M., Ellis, B., Pou, B., Masmitja, I., Foerster, J. N., & Martin, M. (2024). Simplifying deep temporal difference learning. arXiv preprint arXiv:2407.04811.```
 
 ```Janjua, M. K., Shah, H., White, M., Miahi, E., Machado, M. C., & White, A. (2024). GVFs in the real world: making predictions online for water treatment. Machine Learning, 113(8), 5151-5181.```
 
 ```Ring, M. (2021). Representing knowledge as predictions (and state as knowledge). arXiv preprint arXiv:2112.06336.```
 
 ```Lyle, C., Zheng, Z., Khetarpal, K., Martens, J., van Hasselt, H. P., Pascanu, R., & Dabney, W. (2024). Normalization and effective learning rates in reinforcement learning. Advances in Neural Information Processing Systems, 37, 106440-106473.```
+
+```Lehman, J., Meyerson, E., El-Gaaly, T., Stanley, K. O., & Ziyaee, T. (2025). Evolution and The Knightian Blindspot of Machine Learning. arXiv preprint arXiv:2501.13075.```
